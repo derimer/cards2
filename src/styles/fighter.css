@@ -57,6 +57,19 @@ h2 {
   flex-direction: column;
   gap: 20px;
 }
-.etatForce {
-  gap: 20px;
+.EtatForce {
+  justify-content: space-around;
+  text-align: center;
+}
+@media (max-width: 445px) {
+  .characters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .character-card {
+    width: 100px;
+    height: 100px;
+  }
 }

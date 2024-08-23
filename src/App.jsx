@@ -19,19 +19,19 @@ const App = () => {
   });
 
   const characters = [
-    { name: "barbarian", image: barbarian },
-    { name: "Paladin", image: Paladin },
-    { name: "Fighter", image: Fighter },
-    { name: "ranger", image: Ranger },
+    { name: "BARBARIAN", image: barbarian },
+    { name: "PALADIN", image: Paladin },
+    { name: "FIGHTER", image: Fighter },
+    { name: "RANGER", image: Ranger },
   ];
 
   const handleCharacterSelect = (character) => {
     setSelectedCharacter(character);
     setAttributes({
-      strength: 3,
-      endurance: 4,
-      charism: 5,
-      bonus: 2,
+      strength: 1,
+      endurance: 1,
+      charism: 1,
+      bonus: 1,
     });
     setStep(2);
   };
